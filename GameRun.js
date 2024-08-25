@@ -22,5 +22,4 @@ var GameRun = function() {
     }
   }
 }
-
 const gameRun = new GameRun();
