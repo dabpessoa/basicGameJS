@@ -1,0 +1,24 @@
+<html>
+    <head>
+    	
+    </head>
+    <body>
+        <audio preload="true" id="collideSoundId">
+            <source src="resources/sounds/collide_sound.mp3"/>
+        </audio>
+
+        <button onclick="gameRun.init();">Iniciar</button>
+        <button onclick="gameRun.stop();">Parar</button>
+        <button onclick="gameRun.fullscreen();">Tela Cheia</button>
+
+        <canvas id="myCanvas"></canvas>
+
+        <script type="text/javascript" src="GameCanvas.js"></script>
+        <script type="text/javascript" src="ObjectStyle.js"></script>
+        <script type="text/javascript" src="SpeedPosition.js"></script>
+        <script type="text/javascript" src="Ball.js"></script>
+        <script type="text/javascript" src="GameLoop.js"></script>
+        <script type="text/javascript" src="GameLogics.js"></script>
+        <script type="text/javascript" src="GameRun.js"></script>
+    </body>
+</html>
